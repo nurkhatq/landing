@@ -22,7 +22,7 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'NURKHATTech | Автоматизация будущего уже сегодня',
+  title: 'LifeRoom | Автоматизация будущего уже сегодня',
   description: 'Автоматизация бизнес-процессов в Казахстане. Создаю ботов, парсеры, интеграции и AI решения для экономии времени и денег.',
   keywords: [
     'автоматизация',
@@ -36,13 +36,13 @@ export const metadata: Metadata = {
     'WhatsApp бот',
     'Kaspi парсер'
   ],
-  authors: [{ name: 'Нурхат', url: 'https://nurkhattech.kz' }],
-  creator: 'NURKHATTech',
-  publisher: 'NURKHATTech',
+  authors: [{ name: 'Нурхат', url: 'https://liferoom.rocks' }],
+  creator: 'LifeRoom',
+  publisher: 'LifeRoom',
   openGraph: {
-    title: 'NURKHATTech - Автоматизация бизнеса в Казахстане',
+    title: 'LifeRoom - Автоматизация бизнеса в Казахстане',
     description: 'Создаю ботов, парсеры, интеграции и AI решения для автоматизации вашего бизнеса',
-    url: 'https://nurkhattech.kz',
+    url: 'https://liferoom.rocks',
     siteName: 'NURKHATTech',
     locale: 'ru_KZ',
     type: 'website',
@@ -51,13 +51,13 @@ export const metadata: Metadata = {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'NURKHATTech - Автоматизация бизнеса'
+        alt: 'LifeRoom - Автоматизация бизнеса'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NURKHATTech - Автоматизация бизнеса',
+    title: 'LifeRoom - Автоматизация бизнеса',
     description: 'Создаю ботов, парсеры, интеграции и AI решения',
     images: ['/og-image.jpg']
   },
@@ -77,11 +77,11 @@ export const metadata: Metadata = {
     yandex: 'your-yandex-verification-code',
   },
   alternates: {
-    canonical: 'https://nurkhattech.kz',
+    canonical: 'https://liferoom.rocks',
     languages: {
-      'ru-KZ': 'https://nurkhattech.kz',
-      'kk-KZ': 'https://nurkhattech.kz/kk',
-      'en-US': 'https://nurkhattech.kz/en',
+      'ru-KZ': 'https://liferoom.rocks',
+      'kk-KZ': 'https://liferoom.rocks/kk',
+      'en-US': 'https://liferoom.rocks/en',
     },
   },
 };
@@ -105,9 +105,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
-              "name": "NURKHATTech - Автоматизация бизнеса",
+              "name": "LifeRoom - Автоматизация бизнеса",
               "description": "Автоматизация бизнес-процессов в Казахстане. Создание ботов, парсеров, интеграций и AI решений.",
-              "url": "https://nurkhattech.kz",
+              "url": "https://liferoom.rocks",
               "telephone": "+77761667329",
               "email": "nurkhat@techautomation.kz",
               "address": {

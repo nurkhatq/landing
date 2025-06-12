@@ -164,7 +164,7 @@ export const Footer = () => {
         <div className="border-t border-gray-800 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex items-center space-x-4 text-sm text-gray-400">
-              <span>© 2024 NURKHATTech. Все права защищены.</span>
+              <span>© 2025 LifeRoom. Все права защищены.</span>
               <span className="hidden md:inline">•</span>
               <span className="flex items-center space-x-1">
                 <span>Сделано с</span>
