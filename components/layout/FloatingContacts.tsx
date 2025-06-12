@@ -7,14 +7,14 @@ import { MessageCircle, Send } from 'lucide-react';
 const contacts = [
   {
     name: 'WhatsApp',
-    href: 'https://wa.me/77001234567?text=Привет!%20Хочу%20обсудить%20автоматизацию',
+    href: 'https://wa.me/77761667329?text=Привет!%20Хочу%20обсудить%20автоматизацию',
     icon: MessageCircle,
     color: 'bg-green-500 hover:bg-green-600',
     delay: 0,
   },
   {
     name: 'Telegram',
-    href: 'https://t.me/NURKHAT_tech',
+    href: 'https://t.me/nurkhatq',
     icon: Send,
     color: 'bg-blue-500 hover:bg-blue-600',
     delay: 0.1,

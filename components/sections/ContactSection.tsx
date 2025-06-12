@@ -289,7 +289,7 @@ export const ContactSection = () => {
               
               <div className="space-y-6">
                 <motion.a
-                  href="https://wa.me/77001234567"
+                  href="https://wa.me/77761667329"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-4 p-4 bg-white/10 backdrop-blur-sm rounded-xl hover:bg-white/20 transition-all duration-300"

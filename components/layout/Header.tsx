@@ -241,7 +241,7 @@ export const Header = () => {
                   
                   <div className="flex justify-center space-x-4 mt-4">
                     <a
-                      href="https://t.me/NURKHAT_tech"
+                      href="https://t.me/nurkhatq"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-blue-500 hover:text-white transition-colors"
@@ -251,7 +251,7 @@ export const Header = () => {
                       </svg>
                     </a>
                     <a
-                      href="https://wa.me/77001234567"
+                      href="https://wa.me/77761667329"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-green-500 hover:text-white transition-colors"
