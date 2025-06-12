@@ -108,7 +108,7 @@ export default function RootLayout({
               "name": "NURKHATTech - Автоматизация бизнеса",
               "description": "Автоматизация бизнес-процессов в Казахстане. Создание ботов, парсеров, интеграций и AI решений.",
               "url": "https://nurkhattech.kz",
-              "telephone": "+77001234567",
+              "telephone": "+77761667329",
               "email": "nurkhat@techautomation.kz",
               "address": {
                 "@type": "PostalAddress",

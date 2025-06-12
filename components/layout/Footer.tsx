@@ -5,10 +5,10 @@ import { motion } from 'framer-motion';
 import { ArrowUp, Heart, Code, Coffee } from 'lucide-react';
 
 const socialLinks = [
-  { name: 'Telegram', href: 'https://t.me/NURKHAT_tech', icon: '✈️' },
-  { name: 'WhatsApp', href: 'https://wa.me/77001234567', icon: '💬' },
-  { name: 'GitHub', href: 'https://github.com/nurkhattech', icon: '💻' },
-  { name: 'LinkedIn', href: 'https://linkedin.com/in/nurkhattech', icon: '💼' },
+  { name: 'Telegram', href: 'https://t.me/nurkhatq', icon: '✈️' },
+  { name: 'WhatsApp', href: 'https://wa.me/77761667329', icon: '💬' },
+  { name: 'GitHub', href: 'https://github.com/nurkhatq', icon: '💻' },
+  { name: 'LinkedIn', href: 'https://linkedin.com/in/nurkhat', icon: '💼' },
 ];
 
 const services = [
@@ -143,7 +143,7 @@ export const Footer = () => {
               <div className="text-sm">
                 <div className="text-gray-400 mb-1">📱 Телефон</div>
                 <a 
-                  href="tel:+77001234567"
+                  href="tel:+77761667329"
                   className="text-white hover:text-primary-400 transition-colors"
                 >
                   +7 776 166 73 29
