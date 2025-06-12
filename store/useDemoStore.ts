@@ -215,7 +215,7 @@ export const useDemoStore = create<DemoState>((set, get) => ({
         set({
           whatsappMessages: [],
           whatsappStats: { messages: 0, responseTime: 2.3, orders: 0, satisfaction: 97 },
-          botActive: false,
+          
         });
         break;
       case 'ai':
