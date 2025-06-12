@@ -17,6 +17,7 @@
     "embla-carousel-react": "^8.0.0-rc18",
     "framer-motion": "^10.16.4",
     "lucide-react": "^0.292.0",
+    "mongoose": "^8.15.1",
     "next": "^14.0.0",
     "react": "^18.2.0",
     "react-confetti": "^6.1.0",
@@ -30,6 +31,7 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
+    "@types/mongoose": "^5.11.97",
     "@types/node": "^20.8.9",
     "@types/react": "^18.2.33",
     "@types/react-dom": "^18.2.14",

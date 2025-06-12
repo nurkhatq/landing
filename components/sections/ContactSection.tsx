@@ -55,20 +55,44 @@ export const ContactSection = () => {
   const { register, handleSubmit, formState: { errors }, reset } = useForm<ContactFormData>();
 
   const onSubmit = async (data: ContactFormData) => {
-    setIsSubmitting(true);
-    
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000));
-    
+  setIsSubmitting(true);
+
+  try {
+    const res = await fetch('/api/contact', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify(data),
+});
+
+
+    const result = await res.json();
+
+    if (result.success) {
+      addNotification({
+        type: 'success',
+        message: 'Заявка отправлена! Свяжусь с вами в течение 2 часов.',
+        duration: 8000,
+      });
+      reset();
+    } else {
+      addNotification({
+        type: 'error',
+        message: 'Ошибка при отправке заявки. Попробуйте позже.',
+        duration: 8000,
+      });
+    }
+  } catch (error) {
+    console.error(error);
     addNotification({
-      type: 'success',
-      message: 'Заявка отправлена! Свяжусь с вами в течение 2 часов.',
-      duration: 8000
+      type: 'error',
+      message: 'Ошибка соединения с сервером.',
+      duration: 8000,
     });
-    
-    reset();
+  } finally {
     setIsSubmitting(false);
-  };
+  }
+};
+
 
   return (
     <section 
