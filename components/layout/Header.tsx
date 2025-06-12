@@ -65,8 +65,8 @@ export const Header = () => {
               </div>
               <div className="hidden sm:block">
                 <div className="font-display font-bold text-xl text-gray-900 dark:text-white">
-                  NURKHAT
-                  <span className="text-primary-500">TECH</span>
+                  Life
+                  <span className="text-primary-500">Room</span>
                 </div>
                 <div className="text-xs text-gray-500 dark:text-gray-400 font-mono tracking-wider">
                   AI AUTOMATION

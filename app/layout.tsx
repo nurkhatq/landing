@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: 'LifeRoom - Автоматизация бизнеса в Казахстане',
     description: 'Создаю ботов, парсеры, интеграции и AI решения для автоматизации вашего бизнеса',
     url: 'https://liferoom.rocks',
-    siteName: 'NURKHATTech',
+    siteName: 'LifeRoom',
     locale: 'ru_KZ',
     type: 'website',
     images: [

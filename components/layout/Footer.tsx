@@ -60,7 +60,7 @@ export const Footer = () => {
                 </div>
                 <div>
                   <div className="font-display font-bold text-xl">
-                    NURKHAT<span className="text-primary-500">TECH</span>
+                    Life<span className="text-primary-500">Room</span>
                   </div>
                   <div className="text-xs text-gray-400 font-mono tracking-wider">
                     AI AUTOMATION
